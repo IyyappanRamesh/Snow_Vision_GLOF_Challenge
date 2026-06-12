@@ -1,6 +1,10 @@
 # GLOFeagles '26: Hybrid CNN-Transformer Framework for Glacial Lake Detection
 
-This repository contains Team SNOW_VISION's official submission for the GLOFeagles '26 Glacial Lake Detection Challenge as a part of NCVPRIPG 2206. The solution implements a data-efficient, semi-supervised TransUNetHybrid architecture designed to detect and segment highly volatile glacial lakes across complex high-altitude alpine terrains.
+This repository presents an end-to-end deep learning solution developed for the GLOFeagles 2026 challenge, targeting accurate automated segmentation of high-altitude glacial lakes to monitor GLOF flood risks.
+
+To overcome severe land-to-water class imbalances and false positives caused by mountain terrain shadows, we implement a custom TransUNetHybrid architecture. The network features a robust ResNet-50 convolutional encoder to capture fine-grained spatial boundaries and sharp shorelines, a Vision Transformer (ViT) bridge utilizing multi-head self-attention to model landscape-wide global context, and a cascaded decoder with U-Net style skip-connections for precise localization recovery.
+
+Trained via a curriculum-driven active learning loop using a unified Binary Cross-Entropy and Dice loss framework, the model achieves a Pixel Accuracy of 99.69%. To rigorously validate performance beyond pixel accuracy on highly imbalanced remote sensing data, the framework achieves a mean Intersection over Union (mIoU) of 77.20%,mean precision of 84.01% , mean recall of 84.08% , mean F1 score of  83.16% and a Cohen's Kappa coefficient of 0.8302. These evaluation metrics confirm strong statistical agreement with ground-truth expert annotations, successfully differentiating turbid water bodies from complex alpine topography.
 
 Repository Structure
 Source Code/
