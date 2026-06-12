@@ -8,11 +8,11 @@ Trained via a curriculum-driven active learning loop using a unified Binary Cros
 
 Repository Structure
 Source Code/
-├── 📄 model_architecture.py  # Network skeletal definition (ResNet-50 + Transformer Bridge)
-├── 📄 utils.py               # Custom Hybrid Loss (BCE + Dice) and Dataset Loaders
-├── 📄 train.py               # Active learning execution and model optimization loop
-├── 📄 inference.py           # Evaluation pipeline for batch processing challenge datasets
-├── 📄 requirements.py        # Complete environment library dependencies 
-└── 📄 README.md              # Documentation and execution manual (This file)
+├──  model_architecture.py  # Network skeletal definition (ResNet-50 + Transformer Bridge)
+├──  utils.py               # Custom Hybrid Loss (BCE + Dice) and Dataset Loaders
+├──  train.py               # Active learning execution and model optimization loop
+├──  inference.py           # Evaluation pipeline for batch processing challenge datasets
+├──  requirements.py        # Complete environment library dependencies 
+└──  README.md              # Documentation and execution manual (This file)
 
 The explanation video of the methodology and results are at https://youtu.be/Wo0h97mKXPo?si=Z8ZeFAE7_2ZQfHN6
