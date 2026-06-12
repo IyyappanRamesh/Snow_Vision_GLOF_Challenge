@@ -10,3 +10,5 @@ Source Code/
 ├── 📄 inference.py           # Evaluation pipeline for batch processing challenge datasets
 ├── 📄 requirements.py        # Complete environment library dependencies 
 └── 📄 README.md              # Documentation and execution manual (This file)
+
+The explanation video of the methodology and results are at https://youtu.be/Wo0h97mKXPo?si=Z8ZeFAE7_2ZQfHN6
