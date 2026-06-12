@@ -1,6 +1,6 @@
 # GLOFeagles '26: Hybrid CNN-Transformer Framework for Glacial Lake Detection
 
-This repository contains our official submission for the GLOFeagles '26 Glacial Lake Detection Hackathon. The solution implements a data-efficient, semi-supervised TransUNetHybrid architecture designed to detect and segment highly volatile glacial lakes across complex high-altitude alpine terrains.
+This repository contains Team SNOW_VISION's official submission for the GLOFeagles '26 Glacial Lake Detection Challenge as a part of NCVPRIPG 2206. The solution implements a data-efficient, semi-supervised TransUNetHybrid architecture designed to detect and segment highly volatile glacial lakes across complex high-altitude alpine terrains.
 
 Repository Structure
 Source Code/
